@@ -24,4 +24,10 @@ var item = document.getElementsByClassName('list-group-item');
 console.log(item[0]);
 console.log(item[1]);
 console.log(item[2]);
-item[1].textContent = "yo1"
+item[1].style.backgroundColor = "yellow";
+item[1].textContent = "yo1";
+item[1].style.fontWight = "bold";
+
+for(var i = 0;i < item.length;i++){
+    item[1].style.backgroundColor = '#f4f4f4';
+}
