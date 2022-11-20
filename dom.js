@@ -20,14 +20,26 @@
 
 
 // Get Element by Class Name
-var item = document.getElementsByClassName('list-group-item');
-console.log(item[0]);
-console.log(item[1]);
-console.log(item[2]);
-item[1].style.backgroundColor = "yellow";
-item[1].textContent = "yo1";
-item[1].style.fontWight = "bold";
+// var item = document.getElementsByClassName('list-group-item');
+// console.log(item[0]);
+// console.log(item[1]);
+// console.log(item[2]);
+// item[1].style.backgroundColor = "yellow";
+// item[1].textContent = "yo1";
+// item[1].style.fontWight = "bold";
 
-for(var i = 0;i < item.length;i++){
-    item[1].style.backgroundColor = '#f4f4f4';
+// for(var i = 0;i < item.length;i++){
+//     item[1].style.backgroundColor = '#f4f4f4';
+// }
+
+// Get Element by Tag name
+var li = document.getElementsByTagName('li');
+console.log(li);
+console.log(li[1]);
+li[1].style.backgroundColor = "yellow";
+li[1].textContent = "yo1";
+li[1].style.fontWight = "bold";
+
+for(var i = 0;i < li.length;i++){
+    li[i].style.backgroundColor = '#f4f4f4';
 }
