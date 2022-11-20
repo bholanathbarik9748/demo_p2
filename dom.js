@@ -10,5 +10,18 @@
 // console.log(document.forms);
 
 // Get Element by iD
-var cnt = document.getElementById('header-title');
-console.log(cnt);
+// var cnt = document.getElementById('header-title');
+// var ord_head = document.getElementById('main-header');
+// // cnt.textContent = "Yo";
+// // cnt.innerText = "Yo1";
+// // cnt.innerHTML = '<h1>Yo2<h1>';
+// // cnt.style.borderBottom = 'solid 3px #000';
+// org_head.style.borderBottom = 'solid 3px #000';
+
+
+// Get Element by Class Name
+var item = document.getElementsByClassName('list-group-item');
+console.log(item[0]);
+console.log(item[1]);
+console.log(item[2]);
+item[1].textContent = "yo1"
