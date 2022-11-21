@@ -145,7 +145,7 @@ var container = document.querySelector('header .container')
 var h1 = document.querySelector('header h1');
 container.insertBefore(newdiv,h1);
 
-var container1 = document.querySelector('.container')
-var h11 = document.querySelector('h2');
+var container1 = document.querySelector('body .container')
+var h11 = document.querySelector('body h2');
 container.insertBefore(container1,h11);
 console.log(newdiv);
